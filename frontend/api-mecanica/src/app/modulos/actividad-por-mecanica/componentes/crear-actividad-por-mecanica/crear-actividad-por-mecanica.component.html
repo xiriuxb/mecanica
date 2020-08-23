@@ -1,0 +1,54 @@
+<div class="container">
+  <div class="row justify-content-md-center">
+    <h2>ACTIVIDADES DE MECANICA</h2>
+  </div>
+</div>
+<div class="container-fluid">
+  <div>
+    <form
+      [formGroup]="formularioActividadPorMecanica"
+      (ngSubmit)="enviarFormularioMecanica()"
+      novalidate
+    >
+      <div class="row filaActividad">
+        <div class="form-group col-sm-12 col-md-12">
+          <mat-label>Actividad mecanica: *</mat-label>
+          <mat-select [formControlName]="'actividadMecanica'"
+                      id="actividadMecanica"
+                      placeholder="actividades"
+                      multiple>
+            <mat-option *ngFor="let actividad of actividades" [value]="actividad">
+              {{actividad.detalleActividad}}
+            </mat-option>
+          </mat-select>
+          <small id="actividadMecanicaHelp" class="form-text text-musted">Seleccione una actividad de mecanica.</small>
+          <div *ngIf="arregloMensajesDeErrorActividadMecanica.length>0 && arregloMensajesDeErrorActividadMecanica[0] "
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorActividadMecanica">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row filaNuevaActividad">
+        <div class="form-group col-sm-12 col-md-12">
+          <label for="detalleActividad">Nueva actividad: *</label>
+          <input
+            [formControlName]="'detalleActividad'"
+            type="text"
+            class="form-control"
+            id="detalleActividad"
+            aria-describedby="detalleActividadHelp"
+            placeholder="Ingrese una nueva actividad">
+          <small id="nuevaActividadHelp" class="form-text text-musted">Ingrese una nueva actividad.</small>
+          <div *ngIf="arregloMensajesDeErrornuevaActividad.length>0 && arregloMensajesDeErrornuevaActividad[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrornuevaActividad">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

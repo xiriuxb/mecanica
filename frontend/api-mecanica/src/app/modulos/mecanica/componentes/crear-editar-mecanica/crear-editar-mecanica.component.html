@@ -1,0 +1,112 @@
+<div class="container">
+  <div class="row justify-content-md-center">
+    <h2>DATOS DE MECANICA</h2>
+  </div>
+</div>
+<div class="container">
+  <div>
+    <form
+      [formGroup]="formularioMecanica"
+      (ngSubmit)="enviarFormularioMecanica()"
+      novalidate
+    >
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6">
+          <mat-label>Lugares: *</mat-label>
+          <mat-select [formControlName]="'lugar'"
+                      id="lugar"
+                      placeholder="lugares....">
+            <mat-option *ngFor="let lugar of lugares" [value]="lugar">
+              {{lugar.nombre}}
+            </mat-option>
+          </mat-select>
+          <small id="lugarHelp" class="form-text text-musted">Seleccione una actividad de
+            mecanico.</small>
+          <div *ngIf="arregloMensajesDeErrorLugar.length>0 && arregloMensajesDeErrorLugar[0] "
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorLugar">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6">
+          <label for="nombreMecanica">Nombre: *</label>
+          <input
+            [formControlName]="'nombreMecanica'"
+            type="text"
+            class="form-control"
+            id="nombreMecanica"
+            aria-describedby="nombreMecanicaHelp"
+            placeholder="Ingrese el nombre">
+          <small id="nombreMecanicaHelp" class="form-text text-musted">Ingrese el nombre de mecanica.</small>
+          <div *ngIf="arregloMensajesDeErrorNombre.length>0 && arregloMensajesDeErrorNombre[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorNombre">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6">
+          <label for="telefonoMecanica">Telefono: *</label>
+          <input
+            [formControlName]="'telefonoMecanica'"
+            [textMask]="mascaraTelefonoMecanica"
+            type="text"
+            class="form-control"
+            id="telefonoMecanica"
+            aria-describedby="telefonoMecanicaHelp"
+            placeholder="Ingrese el telefono">
+          <small id="TelefonoMecanicaHelp" class="form-text text-musted">Ingrese el telefono de mecanico.</small>
+          <div *ngIf="arregloMensajesDeErrorTelefono.length>0 && arregloMensajesDeErrorTelefono[0] "
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorTelefono">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6">
+          <label for="direccionMecanica">Direccion: *</label>
+          <input
+            [formControlName]="'direccionMecanica'"
+            type="text"
+            class="form-control"
+            id="direccionMecanica"
+            aria-describedby="direccionMecanicaHelp"
+            placeholder="Ingrese el direccion">
+          <small id="direccionMecanicaHelp" class="form-text text-musted">Ingrese el direccion de mecanico.</small>
+          <div *ngIf="arregloMensajesDeErrorDireccion.length>0  && arregloMensajesDeErrorDireccion[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorDireccion">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6">
+          <label for="descripcionMecanica">Descripcion: *</label>
+          <input
+            [formControlName]="'descripcionMecanica'"
+            type="text"
+            class="form-control"
+            id="descripcionMecanica"
+            aria-describedby="descripcionMecanicaHelp"
+            placeholder="Ingrese el descripcion">
+          <small id="descripcionMecanicaHelp" class="form-text text-musted">Ingrese el descripcion de mecanico.</small>
+          <div *ngIf="arregloMensajesDeErrorDescripcion.length>0  && arregloMensajesDeErrorDescripcion[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorDescripcion">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

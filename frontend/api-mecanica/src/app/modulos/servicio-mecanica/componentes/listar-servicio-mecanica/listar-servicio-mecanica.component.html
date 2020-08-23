@@ -1,0 +1,65 @@
+<div class="container">
+  <div class="row justify-content-between">
+    <div class="col-sm-4 col-md-4">
+      <input type="text" class="form-control" placeholder="Buscar por nombre...."
+             name="filtrar-columna" [(ngModel)]="nombreABuscar">
+      <button class="btn btn-sm btn-outline-secondary btn-block" (click)="filtrarPorNombre()"><i class="pi pi-search"></i> BUSCAR</button>
+    </div>
+  </div>
+</div>
+
+
+<br>
+
+<div class="container">
+  <p-table
+    [value]="servicios"
+    [paginator]="true"
+    [rows]="5"
+    [lazy]="true"
+    (onLazyLoad)="cargarMasDatos($event)"
+    [totalRecords]="registrosTotales"
+  >
+    <ng-template pTemplate="header">
+      <tr>
+        <th *ngFor="let col of columnas" id="cabeceraTabla" [style.width]="col.width">
+          {{col.header}}
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-servicioRow>
+      <tr>
+        <td *ngFor="let col of columnas" [style.width]="col.width">
+          <div *ngIf="col.field === 'detalle'">{{servicioRow[col.field] | uppercase}}</div>
+          <div *ngIf="col.field === 'costo'">{{servicioRow[col.field]}}</div>
+          <div *ngIf="col.field === 'estado'">{{servicioRow[col.field] | uppercase}}</div>
+          <div *ngIf="col.field === 'id'">
+            <div class="row justify-content-md-center ">
+              <div class="col-md-6 col-sm-12">
+                <button class="btn btn-sm btn-outline-info btn-block boton" (click)="verDetalles(servicioRow)"><i class="pi pi-file"></i>
+                  Detalles
+                </button>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="emptymessage" let-columns>
+      <tr>
+        <td [attr.colspan]="columnas.length">
+          No hay registros
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 col-sm-12">
+      <button  [routerLink]="['/mecanica']" class="btn btn-sm btn-outline-secondary btn btn-block"><i class="pi pi-angle-left"></i> ATRAS</button>
+    </div>
+  </div>
+</div>

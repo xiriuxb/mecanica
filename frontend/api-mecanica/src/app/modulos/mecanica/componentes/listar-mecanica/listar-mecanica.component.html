@@ -1,0 +1,104 @@
+<div class="container">
+  <div class="row justify-content-between">
+    <div class="col-sm-4 col-md-4">
+      <input type="text" class="form-control" placeholder="Buscar por nombre...."
+             name="filtrar-columna" [(ngModel)]="nombreABuscar">
+      <button class="btn btn-sm btn-outline-secondary btn-block" (click)="filtrarPorNombre()"><i
+        class="pi pi-search"></i> BUSCAR
+      </button>
+    </div>
+    <div class="col-sm-4 col-md-5">
+      <button class="btn btn-sm btn-outline-info btn-block boton" (click)="abrirModalCrear()"><i
+        class="pi pi-plus"></i> CREAR
+      </button>
+    </div>
+  </div>
+</div>
+<br>
+<div class="container">
+  <p-table
+    [value]="mecanicas"
+    [paginator]="true"
+    [rows]="3"
+    [lazy]="true"
+    (onLazyLoad)="cargarMasDatos($event)"
+    [totalRecords]="registrosTotales"
+
+  >
+    <ng-template pTemplate="header">
+      <tr>
+        <th *ngFor="let col of columnas" id="cabeceraTabla" [style.width]="col.width">
+          {{col.header}}
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-mecanicaRow>
+      <tr>
+        <td *ngFor="let col of columnas" [style.width]="col.width">
+          <div *ngIf="col.field === 'nombreMecanica'">{{mecanicaRow[col.field] | uppercase}}</div>
+          <div *ngIf="col.field === 'telefonoMecanica'">{{mecanicaRow[col.field] | uppercase}}</div>
+          <div *ngIf="col.field === 'lugar'">{{mecanicaRow[col.field].nombre}}</div>
+          <div *ngIf="col.field === 'direccionMecanica'">{{mecanicaRow[col.field]}}</div>
+          <div *ngIf="col.field === 'estadoMecanica'">
+            <div class="container">
+              <div class="row justify-content-sm-center">
+                <button class="btn btn-sm btn-success btn-block botonEstado"
+                        [ngClass]="{'btn-danger': !mecanicaRow.estadoMecanica}"
+                        (click)="cambiarEstadoMecanica(mecanicaRow)">
+                  {{mecanicaRow.estadoMecanica | estado}}
+                </button>
+              </div>
+            </div>
+          </div>
+          <div *ngIf="col.field === 'id'">
+            <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <button (click)="abrirModalEditar(mecanicaRow)" class="btn btn-sm btn-outline-info btn-block boton"><i
+                  class="pi pi-pencil"></i>
+                  Editar
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <button (click)="listarActividades(mecanicaRow[col.field])"
+                        class="btn btn-sm btn-outline-info btn-block boton"><i class="pi pi-cog"></i> Actividades
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <button (click)="listarMecanicos(mecanicaRow[col.field])"
+                        class="btn btn-sm btn-outline-info btn-block boton"><i class="pi pi-users"></i> Mecanicos
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md- col-sm-12">
+                <button class="btn btn-sm btn-outline-info btn-block boton"
+                        (click)="servicioMecanica(mecanicaRow[col.field])"><i class="pi pi-list"></i> Servicios
+                </button>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="emptymessage" let-columns>
+      <tr>
+        <td [attr.colspan]="columnas.length">
+          No hay registros
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 col-sm-12">
+      <button  [routerLink]="['/inicio']" class="btn btn-sm btn-outline-secondary btn btn-block"><i class="pi pi-angle-left"></i> VOLVER AL INICIO</button>
+    </div>
+  </div>
+</div>

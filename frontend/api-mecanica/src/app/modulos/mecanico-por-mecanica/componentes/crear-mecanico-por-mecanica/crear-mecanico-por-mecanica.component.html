@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="row justify-content-md-center">
+    <h2>MECANICOS DISPONIBLES</h2>
+  </div>
+</div>
+<div class="container-fluid">
+  <div>
+    <form
+      [formGroup]="formularioMecanicoPorMecanica"
+      (ngSubmit)="enviarFormularioMecanico()"
+      novalidate
+    >
+      <div class="row filaMecanico">
+        <div class="form-group col-sm-12 col-md-12">
+          <mat-label>Mecanico: *</mat-label>
+          <mat-select [formControlName]="'mecanicos'"
+                      id="mecanicos"
+                      placeholder="actividades"
+                      multiple>
+            <mat-option *ngFor="let mecanico of mecanicos" [value]="mecanico">
+              {{mecanico.nombreMecanico + ' ' + mecanico.apellidoMecanico}}
+            </mat-option>
+          </mat-select>
+          <small id="mecanicosHelp" class="form-text text-musted">Seleccione un mecanico.</small>
+          <div *ngIf="arregloMensajesDeErrorMecanicoPorMecanica.length>0 && arregloMensajesDeErrorMecanicoPorMecanica[0] "
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorMecanicoPorMecanica">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

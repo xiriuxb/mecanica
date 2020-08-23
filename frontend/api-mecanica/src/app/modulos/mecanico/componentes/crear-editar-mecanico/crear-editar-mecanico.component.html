@@ -1,0 +1,128 @@
+<div class="container">
+  <div class="row justify-content-md-center">
+    <h2>DATOS DE MECANICO</h2>
+  </div>
+</div>
+<div class="container">
+  <div>
+    <form
+      [formGroup]="formularioMecanico"
+      (ngSubmit)="enviarFormularioMecanico()"
+      novalidate
+    >
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6">
+          <label for="nombreMecanico">Nombre: *</label>
+          <input
+            [formControlName]="'nombreMecanico'"
+            type="text"
+            class="form-control"
+            id="nombreMecanico"
+            aria-describedby="nombreMecanicoHelp"
+            placeholder="Ingrese el nombre">
+          <small id="nombreMecanicoHelp" class="form-text text-musted">Ingrese el nombre de mecanico.</small>
+          <div *ngIf="arregloMensajesDeErrorNombre.length>0 && arregloMensajesDeErrorNombre[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorNombre">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-sm-12 col-md-6">
+          <label for="apellidoMecanico">Apellido: *</label>
+          <input
+            [formControlName]="'apellidoMecanico'"
+            type="text"
+            class="form-control"
+            id="apellidoMecanico"
+            aria-describedby="apellidoMecanicoHelp"
+            placeholder="Ingrese el apellido">
+          <small id="apellidoMecanicoHelp" class="form-text text-musted">Ingrese el apellido de mecanico.</small>
+          <div *ngIf="arregloMensajesDeErrorApellido.length>0  && arregloMensajesDeErrorApellido[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorApellido">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6">
+          <label for="cedulaMecanico">Cedula: *</label>
+          <input
+            [attr.disabled]="mecanico"
+            [formControlName]="'cedulaMecanico'"
+            [textMask]="mascaraCedulaMecanico"
+            type="text"
+            class="form-control"
+            id="cedulaMecanico"
+            aria-describedby="cedulaMecanicoHelp"
+            placeholder="Ingrese la cedula">
+          <small id="cedulaMecanicoHelp" class="form-text text-musted">Ingrese la cedula de mecanico.</small>
+          <div *ngIf="arregloMensajesDeErrorCedula.length>0 && arregloMensajesDeErrorCedula[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorCedula">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-sm-12 col-md-6">
+          <label for="telefonoMecanico">Telefono: *</label>
+          <input
+            [formControlName]="'telefonoMecanico'"
+            [textMask]="mascaraTelefonoMecanico"
+            type="text"
+            class="form-control"
+            id="telefonoMecanico"
+            aria-describedby="telefonoMecanicoHelp"
+            placeholder="Ingrese el telefono">
+          <small id="TelefonoMecanicoHelp" class="form-text text-musted">Ingrese el telefono de mecanico.</small>
+          <div *ngIf="arregloMensajesDeErrorTelefono.length>0 && arregloMensajesDeErrorTelefono[0] "
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorTelefono">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6" [hidden]="mecanico">
+          <mat-label>Actividad mecanico: *</mat-label>
+          <mat-select [formControlName]="'actividadPorMecanico'"
+                      id="actividadPorMecanico"
+                      placeholder="actividades"
+                      multiple>
+            <mat-option *ngFor="let actividad of actividades" [value]="actividad">
+              {{actividad.detalleActividad}}
+            </mat-option>
+          </mat-select>
+          <small id="actividadPorMecanicoHelp" class="form-text text-musted">Seleccione una actividad de
+            mecanico.</small>
+          <div *ngIf="arregloMensajesDeErrorActividad.length>0 && arregloMensajesDeErrorActividad[0] "
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorActividad">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="form-group col-md-6">
+          <mat-label>Estado Civil: *</mat-label>
+          <mat-select [formControlName]="'estadoCivilMecanico'"
+                      id="estadoCivilMecanico"
+                      placeholder="estado civil">
+            <mat-option *ngFor="let estadoCivil of estadosCiviles" [value]="estadoCivil">
+              {{estadoCivil}}
+            </mat-option>
+          </mat-select>
+          <small id="estadoCivilMecanicoHelp" class="form-text text-musted">Seleccione estado civil de mecanico.</small>
+          <div *ngIf="arregloMensajesDeErrorEstadoCivil.length>0 && arregloMensajesDeErrorEstadoCivil[0] "
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorEstadoCivil">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

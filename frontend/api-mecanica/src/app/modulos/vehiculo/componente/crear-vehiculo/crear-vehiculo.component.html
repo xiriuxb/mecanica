@@ -1,0 +1,74 @@
+<div class="container">
+  <div class="row justify-content-md-center">
+    <h2>DATOS DE VEHICULO</h2>
+  </div>
+</div>
+<div class="container-fluid">
+  <div>
+    <form
+      [formGroup]="formularioVehiculo"
+      (ngSubmit)="enviarFormularioVehiculo()"
+      novalidate
+    >
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-12">
+          <label for="placa">Placa: *</label>
+          <input
+            [textMask]="mascaraPlaca"
+            [formControlName]="'placa'"
+            type="text"
+            class="form-control"
+            id="placa"
+            aria-describedby="placaHelp"
+            placeholder="POL-0330">
+          <small id="placaHelp" class="form-text text-musted">Ingrese la placa de vehiculo.</small>
+          <div *ngIf="arregloMensajesDeErrorPlaca.length>0 && arregloMensajesDeErrorPlaca[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorPlaca">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-12">
+          <label for="anio">Anio: *</label>
+          <input
+            [formControlName]="'anio'"
+            type="text"
+            class="form-control"
+            id="anio"
+            aria-describedby="anioHelp"
+            placeholder="2019">
+          <small id="anioHelp" class="form-text text-musted">Ingrese el anio.</small>
+          <div *ngIf="arregloMensajesDeErrorAnio.length>0 && arregloMensajesDeErrorAnio[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorAnio">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-12">
+          <label for="descripcion">Descripcion: *</label>
+          <textarea
+            [formControlName]="'descripcion'"
+            type="text"
+            class="form-control"
+            id="descripcion"
+            aria-describedby="descripcionHelp"
+            placeholder="Descripcion...">
+          </textarea>
+          <small id="descripcionHelp" class="form-text text-musted">Ingrese la descripcion de vehiculo.</small>
+          <div *ngIf="arregloMensajesDeErrorDescripcion.length>0 && arregloMensajesDeErrorDescripcion[0] "
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorDescripcion">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

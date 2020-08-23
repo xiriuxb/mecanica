@@ -1,0 +1,15 @@
+<div mat-dialog-content>
+  <app-crear-editar-actividad-por-mecanico
+    [activdadPorMecanico]="actividadPorMecanicoCrear"
+    (datosActividadPorMecanico)="crearACtividadPorMecanico($event)">
+  </app-crear-editar-actividad-por-mecanico>
+</div>
+
+<div class="row justify-content-lg-end contenedorBotones" mat-dialog-actions>
+  <div style="padding-right: 1rem">
+    <button class="btn btn-outline-dark" (click)="cancelarModal()"><i class="pi pi-times"></i> CANCELAR</button>
+  </div>
+  <div>
+    <button class="btn btn-success" [disabled]="!actividadPorMecanicoCrear" (click)="enviarDatosFormulario()"><i class="pi pi-save"></i> ACEPTAR</button>
+  </div>
+</div>

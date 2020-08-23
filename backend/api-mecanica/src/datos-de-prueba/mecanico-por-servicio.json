@@ -1,0 +1,22 @@
+[
+  {
+    "mecanico": 5,
+    "servicio": 4
+  },
+  {
+    "mecanico": 15,
+    "servicio": 1
+  },
+  {
+    "mecanico": 18,
+    "servicio": 5
+  },
+  {
+    "mecanico": 13,
+    "servicio": 3
+  },
+  {
+    "mecanico": 3,
+    "servicio": 2
+  }
+]

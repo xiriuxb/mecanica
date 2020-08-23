@@ -1,0 +1,298 @@
+[
+  {
+    "nombreMecanico": "Dianne",
+    "apellidoMecanico": "Knowles",
+    "telefonoMecanico": 8824053496,
+    "estadoCivilMecanico": "Casado",
+    "cedulaMecanico": 3126128358,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Rene",
+    "apellidoMecanico": "Hayes",
+    "telefonoMecanico": 9554903979,
+    "estadoCivilMecanico": "Divorsiado",
+    "cedulaMecanico": 3920522656,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Sonia",
+    "apellidoMecanico": "Slater",
+    "telefonoMecanico": 9645003902,
+    "estadoCivilMecanico": "Viudo",
+    "cedulaMecanico": 6622851625,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Lee",
+    "apellidoMecanico": "Glover",
+    "telefonoMecanico": 9054222336,
+    "estadoCivilMecanico": "Casado",
+    "cedulaMecanico": 2714416985,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Trevino",
+    "apellidoMecanico": "May",
+    "telefonoMecanico": 8334892844,
+    "estadoCivilMecanico": "Casado",
+    "cedulaMecanico": 5951641835,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Chan",
+    "apellidoMecanico": "Lawson",
+    "telefonoMecanico": 8275112354,
+    "estadoCivilMecanico": "Viudo",
+    "cedulaMecanico": 8655964401,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Gloria",
+    "apellidoMecanico": "White",
+    "telefonoMecanico": 8074773622,
+    "estadoCivilMecanico": "Divorsiado",
+    "cedulaMecanico": 7099621588,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Hattie",
+    "apellidoMecanico": "Collins",
+    "telefonoMecanico": 9985532126,
+    "estadoCivilMecanico": "Casado",
+    "cedulaMecanico": 2853619497,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Gardner",
+    "apellidoMecanico": "Avila",
+    "telefonoMecanico": 9284953195,
+    "estadoCivilMecanico": "Casado",
+    "cedulaMecanico": 9787980388,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Lloyd",
+    "apellidoMecanico": "Chambers",
+    "telefonoMecanico": 9835002040,
+    "estadoCivilMecanico": "Soltero",
+    "cedulaMecanico": 8521235294,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Eileen",
+    "apellidoMecanico": "Warren",
+    "telefonoMecanico": 8745113473,
+    "estadoCivilMecanico": "Soltero",
+    "cedulaMecanico": 9413362827,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Kramer",
+    "apellidoMecanico": "Vazquez",
+    "telefonoMecanico": 9524073933,
+    "estadoCivilMecanico": "Casado",
+    "cedulaMecanico": 8951779660,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Hodge",
+    "apellidoMecanico": "Palmer",
+    "telefonoMecanico": 9565003661,
+    "estadoCivilMecanico": "Divorsiado",
+    "cedulaMecanico": 7292379490,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Ada",
+    "apellidoMecanico": "Wiggins",
+    "telefonoMecanico": 8244303775,
+    "estadoCivilMecanico": "Soltero",
+    "cedulaMecanico": 5069384020,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Mable",
+    "apellidoMecanico": "Campos",
+    "telefonoMecanico": 9275162428,
+    "estadoCivilMecanico": "Soltero",
+    "cedulaMecanico": 2968267213,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Dixie",
+    "apellidoMecanico": "Cook",
+    "telefonoMecanico": 9804323253,
+    "estadoCivilMecanico": "Viudo",
+    "cedulaMecanico": 6787698735,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Casey",
+    "apellidoMecanico": "Mcmillan",
+    "telefonoMecanico": 9855533147,
+    "estadoCivilMecanico": "Viudo",
+    "cedulaMecanico": 7267484268,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Lucille",
+    "apellidoMecanico": "Reed",
+    "telefonoMecanico": 9574203884,
+    "estadoCivilMecanico": "Soltero",
+    "cedulaMecanico": 6076269370,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Mosley",
+    "apellidoMecanico": "Curtis",
+    "telefonoMecanico": 9744083933,
+    "estadoCivilMecanico": "Casado",
+    "cedulaMecanico": 5312851995,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Moreno",
+    "apellidoMecanico": "Crawford",
+    "telefonoMecanico": 8005093428,
+    "estadoCivilMecanico": "Divorsiado",
+    "cedulaMecanico": 6269680819,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Yolanda",
+    "apellidoMecanico": "Bird",
+    "telefonoMecanico": 9784263797,
+    "estadoCivilMecanico": "Divorsiado",
+    "cedulaMecanico": 3029625956,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Prince",
+    "apellidoMecanico": "Herman",
+    "telefonoMecanico": 9534603498,
+    "estadoCivilMecanico": "Casado",
+    "cedulaMecanico": 4033071632,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Frank",
+    "apellidoMecanico": "Ortega",
+    "telefonoMecanico": 9825242413,
+    "estadoCivilMecanico": "Viudo",
+    "cedulaMecanico": 4321022422,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Avery",
+    "apellidoMecanico": "Kennedy",
+    "telefonoMecanico": 8055033240,
+    "estadoCivilMecanico": "Soltero",
+    "cedulaMecanico": 8847396708,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Bettie",
+    "apellidoMecanico": "Gross",
+    "telefonoMecanico": 8204853002,
+    "estadoCivilMecanico": "Soltero",
+    "cedulaMecanico": 7315683682,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Harrington",
+    "apellidoMecanico": "Collier",
+    "telefonoMecanico": 8234303812,
+    "estadoCivilMecanico": "Casado",
+    "cedulaMecanico": 8685256889,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Francisca",
+    "apellidoMecanico": "Ferguson",
+    "telefonoMecanico": 9185033842,
+    "estadoCivilMecanico": "Casado",
+    "cedulaMecanico": 7560473078,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Maddox",
+    "apellidoMecanico": "Nash",
+    "telefonoMecanico": 8274742375,
+    "estadoCivilMecanico": "Divorsiado",
+    "cedulaMecanico": 4175320544,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Armstrong",
+    "apellidoMecanico": "Castro",
+    "telefonoMecanico": 9444542218,
+    "estadoCivilMecanico": "Divorsiado",
+    "cedulaMecanico": 4473487148,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Zelma",
+    "apellidoMecanico": "Pennington",
+    "telefonoMecanico": 8955722585,
+    "estadoCivilMecanico": "Soltero",
+    "cedulaMecanico": 7871055229,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Wolf",
+    "apellidoMecanico": "Vaughn",
+    "telefonoMecanico": 9854143788,
+    "estadoCivilMecanico": "Casado",
+    "cedulaMecanico": 9253686916,
+    "estadoMecanico": false
+  },
+  {
+    "nombreMecanico": "Horton",
+    "apellidoMecanico": "Hodges",
+    "telefonoMecanico": 9704273610,
+    "estadoCivilMecanico": "Divorsiado",
+    "cedulaMecanico": 5478682884,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Mclean",
+    "apellidoMecanico": "Riley",
+    "telefonoMecanico": 9295383780,
+    "estadoCivilMecanico": "Soltero",
+    "cedulaMecanico": 2600647282,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Doyle",
+    "apellidoMecanico": "Munoz",
+    "telefonoMecanico": 8254953575,
+    "estadoCivilMecanico": "Divorsiado",
+    "cedulaMecanico": 8145404095,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Cook",
+    "apellidoMecanico": "Nieves",
+    "telefonoMecanico": 8975993203,
+    "estadoCivilMecanico": "Divorsiado",
+    "cedulaMecanico": 2674973841,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Carol",
+    "apellidoMecanico": "Stokes",
+    "telefonoMecanico": 8144602752,
+    "estadoCivilMecanico": "Viudo",
+    "cedulaMecanico": 5538303154,
+    "estadoMecanico": true
+  },
+  {
+    "nombreMecanico": "Vicki",
+    "apellidoMecanico": "Burton",
+    "telefonoMecanico": 9205112362,
+    "estadoCivilMecanico": "Soltero",
+    "cedulaMecanico": 7101221420,
+    "estadoMecanico": false
+  }
+]

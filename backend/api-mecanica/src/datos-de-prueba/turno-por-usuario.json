@@ -1,0 +1,230 @@
+[
+  {
+    "estado": false,
+    "turnoPorMecanica": 26,
+    "mecanico": 1,
+    "usuario": 17
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 28,
+    "mecanico": 5,
+    "usuario": 30
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 9,
+    "mecanico": 22,
+    "usuario": 28
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 27,
+    "mecanico": 5,
+    "usuario": 17
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 22,
+    "mecanico": 6,
+    "usuario": 22
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 5,
+    "mecanico": 17,
+    "usuario": 1
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 22,
+    "mecanico": 12,
+    "usuario": 2
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 4,
+    "mecanico": 28,
+    "usuario": 20
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 27,
+    "mecanico": 19,
+    "usuario": 2
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 7,
+    "mecanico": 21,
+    "usuario": 30
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 25,
+    "mecanico": 14,
+    "usuario": 14
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 28,
+    "mecanico": 1,
+    "usuario": 21
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 29,
+    "mecanico": 22,
+    "usuario": 4
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 3,
+    "mecanico": 2,
+    "usuario": 20
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 4,
+    "mecanico": 29,
+    "usuario": 16
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 1,
+    "mecanico": 23,
+    "usuario": 11
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 1,
+    "mecanico": 8,
+    "usuario": 8
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 7,
+    "mecanico": 4,
+    "usuario": 22
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 15,
+    "mecanico": 22,
+    "usuario": 1
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 26,
+    "mecanico": 21,
+    "usuario": 12
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 15,
+    "mecanico": 12,
+    "usuario": 9
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 26,
+    "mecanico": 15,
+    "usuario": 11
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 30,
+    "mecanico": 28,
+    "usuario": 30
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 10,
+    "mecanico": 10,
+    "usuario": 14
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 16,
+    "mecanico": 28,
+    "usuario": 24
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 19,
+    "mecanico": 1,
+    "usuario": 9
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 25,
+    "mecanico": 4,
+    "usuario": 15
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 29,
+    "mecanico": 1,
+    "usuario": 7
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 23,
+    "mecanico": 13,
+    "usuario": 7
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 15,
+    "mecanico": 9,
+    "usuario": 22
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 4,
+    "mecanico": 28,
+    "usuario": 30
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 16,
+    "mecanico": 29,
+    "usuario": 9
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 2,
+    "mecanico": 28,
+    "usuario": 26
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 1,
+    "mecanico": 26,
+    "usuario": 11
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 25,
+    "mecanico": 15,
+    "usuario": 30
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 4,
+    "mecanico": 3,
+    "usuario": 19
+  },
+  {
+    "estado": false,
+    "turnoPorMecanica": 7,
+    "mecanico": 10,
+    "usuario": 10
+  },
+  {
+    "estado": true,
+    "turnoPorMecanica": 26,
+    "mecanico": 2,
+    "usuario": 30
+  }
+]

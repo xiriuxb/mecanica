@@ -1,0 +1,22 @@
+[
+  {
+    "cantidad": "100.00",
+    "movimientoEconomico": 0,
+    "aumenta": true
+  },
+  {
+    "cantidad": "130.50",
+    "movimientoEconomico": 30.50,
+    "aumenta": true
+  },
+  {
+    "cantidad": "110.00",
+    "movimientoEconomico": 20.50,
+    "aumenta": true
+  },
+  {
+    "cantidad": "50.00",
+    "movimientoEconomico": 60,
+    "aumenta": true
+  }
+]

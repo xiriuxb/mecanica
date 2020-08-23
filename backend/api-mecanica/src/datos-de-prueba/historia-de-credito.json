@@ -1,0 +1,22 @@
+[
+  {
+    "fecha": "2019-01-09",
+    "usuario": 12,
+    "credito": 1
+  },
+  {
+    "fecha": "2019-02-17",
+    "usuario": 15,
+    "credito": 2
+  },
+  {
+    "fecha": "2019-03-07",
+    "usuario": 15,
+    "credito": 3
+  },
+  {
+    "fecha": "2019-04-26",
+    "usuario": 15,
+    "credito": 4
+  }
+]

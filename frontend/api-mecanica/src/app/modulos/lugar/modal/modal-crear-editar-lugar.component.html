@@ -1,0 +1,13 @@
+<h2 mat-dialog-title>LUGAR</h2>
+<div mat-dialog-content>
+  <app-crear-editar-lugar [lugar]="lugarCrearEditar" (datosLugar)="crearEditarLugar($event)"></app-crear-editar-lugar>
+</div>
+<div class="row justify-content-lg-end" mat-dialog-actions>
+  <div style="padding-right: 1rem">
+    <button class="btn btn-outline-dark" (click)="cancelarModal()"><i class="pi pi-times"></i> CANCELAR</button>
+  </div>
+  <div>
+    <button class="btn btn-success" (click)="enviarDatosFormulario()"><i class="pi pi-save"></i> ACEPTAR</button>
+  </div>
+</div>
+

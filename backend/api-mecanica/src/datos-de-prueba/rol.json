@@ -1,0 +1,14 @@
+[
+  {
+    "tipo": "mecanico"
+  },
+  {
+    "tipo": "administrador"
+  },
+  {
+    "tipo": "root"
+  },
+  {
+    "tipo": "cliente"
+  }
+]

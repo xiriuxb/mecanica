@@ -1,0 +1,352 @@
+[
+  {
+    "nombreUsuario": "Berg",
+    "apellidoUsuario": "Craft",
+    "direccionUsuario": "Non sunt velit labore ullamco ea Lorem eiusmod incididunt.",
+    "telefonoUsuario": "(859) 520-3681",
+    "estadoCivilUsuario": "Casado",
+    "cedulaUsuario": 5601044064,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Fitzgerald",
+    "apellidoUsuario": "Le",
+    "direccionUsuario": "Voluptate labore est deserunt esse adipisicing.",
+    "telefonoUsuario": "(826) 417-3747",
+    "estadoCivilUsuario": "Soltero",
+    "cedulaUsuario": 4649562656,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Earlene",
+    "apellidoUsuario": "Vaughan",
+    "direccionUsuario": "Aliquip voluptate consectetur mollit minim ullamco culpa.",
+    "telefonoUsuario": "(929) 452-2050",
+    "estadoCivilUsuario": "Casado",
+    "cedulaUsuario": 5363367164,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Lillian",
+    "apellidoUsuario": "Bailey",
+    "direccionUsuario": "Velit nisi proident ipsum consequat laborum nulla veniam.",
+    "telefonoUsuario": "(855) 563-3523",
+    "estadoCivilUsuario": "Viudo",
+    "cedulaUsuario": 8203698930,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Mcknight",
+    "apellidoUsuario": "Mathews",
+    "direccionUsuario": "Nisi non cillum consectetur cupidatat consequat pariatur ad ea.",
+    "telefonoUsuario": "(996) 477-3431",
+    "estadoCivilUsuario": "Divorciado",
+    "cedulaUsuario": 6749274577,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Gilliam",
+    "apellidoUsuario": "Jarvis",
+    "direccionUsuario": "Id minim labore in cupidatat fugiat ullamco voluptate cillum aute aute eu excepteur sit.",
+    "telefonoUsuario": "(851) 470-3222",
+    "estadoCivilUsuario": "Viudo",
+    "cedulaUsuario": 9902721878,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Johnson",
+    "apellidoUsuario": "Roberson",
+    "direccionUsuario": "Officia consectetur minim commodo exercitation laborum proident.",
+    "telefonoUsuario": "(957) 532-3341",
+    "estadoCivilUsuario": "Viudo",
+    "cedulaUsuario": 9854373814,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Lola",
+    "apellidoUsuario": "Ayers",
+    "direccionUsuario": "Mollit esse ullamco quis dolore excepteur.",
+    "telefonoUsuario": "(875) 433-3283",
+    "estadoCivilUsuario": "Soltero",
+    "cedulaUsuario": 1561386628,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Spence",
+    "apellidoUsuario": "Knowles",
+    "direccionUsuario": "Elit eu commodo duis fugiat tempor Lorem sit amet incididunt laboris velit eiusmod cillum.",
+    "telefonoUsuario": "(830) 455-2572",
+    "estadoCivilUsuario": "Casado",
+    "cedulaUsuario": 7219674420,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Beverly",
+    "apellidoUsuario": "Austin",
+    "direccionUsuario": "Veniam do deserunt consectetur culpa.",
+    "telefonoUsuario": "(999) 416-2326",
+    "estadoCivilUsuario": "Soltero",
+    "cedulaUsuario": 5798699794,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Zimmerman",
+    "apellidoUsuario": "Wilkins",
+    "direccionUsuario": "Nisi ipsum sunt veniam fugiat.",
+    "telefonoUsuario": "(971) 569-2363",
+    "estadoCivilUsuario": "Divorciado",
+    "cedulaUsuario": 1166339357,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Dotson",
+    "apellidoUsuario": "Cameron",
+    "direccionUsuario": "Enim voluptate non enim consequat nisi dolor aliquip officia.",
+    "telefonoUsuario": "(861) 561-2400",
+    "estadoCivilUsuario": "Soltero",
+    "cedulaUsuario": 6146131837,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Mccormick",
+    "apellidoUsuario": "Stone",
+    "direccionUsuario": "Excepteur ipsum consequat reprehenderit dolore laboris et in nostrud elit sint do commodo laboris nisi.",
+    "telefonoUsuario": "(818) 412-2023",
+    "estadoCivilUsuario": "Soltero",
+    "cedulaUsuario": 3154934560,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Marks",
+    "apellidoUsuario": "Fisher",
+    "direccionUsuario": "Labore do occaecat et amet nisi voluptate ut ut Lorem veniam aute.",
+    "telefonoUsuario": "(955) 522-2666",
+    "estadoCivilUsuario": "Casado",
+    "cedulaUsuario": 3325519461,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Knox",
+    "apellidoUsuario": "Gallagher",
+    "direccionUsuario": "Sint pariatur aliquip veniam ipsum adipisicing adipisicing est sunt anim aliqua.",
+    "telefonoUsuario": "(817) 472-3425",
+    "estadoCivilUsuario": "Soltero",
+    "cedulaUsuario": 7392683391,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Deana",
+    "apellidoUsuario": "Shelton",
+    "direccionUsuario": "Mollit voluptate pariatur anim ullamco.",
+    "telefonoUsuario": "(801) 570-3262",
+    "estadoCivilUsuario": "Casado",
+    "cedulaUsuario": 3865667460,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Spencer",
+    "apellidoUsuario": "Riley",
+    "direccionUsuario": "Esse deserunt nostrud do dolore pariatur nostrud incididunt dolor do aute ex enim Lorem non.",
+    "telefonoUsuario": "(833) 451-2099",
+    "estadoCivilUsuario": "Divorciado",
+    "cedulaUsuario": 4316448072,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Garrison",
+    "apellidoUsuario": "Buckner",
+    "direccionUsuario": "Exercitation velit eiusmod labore cillum officia anim mollit veniam veniam non laborum ipsum laborum.",
+    "telefonoUsuario": "(825) 561-2388",
+    "estadoCivilUsuario": "Divorciado",
+    "cedulaUsuario": 2089959820,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Collins",
+    "apellidoUsuario": "Silva",
+    "direccionUsuario": "Sint anim magna laborum sit aliqua Lorem nisi incididunt nulla ea elit in occaecat laborum.",
+    "telefonoUsuario": "(817) 508-2600",
+    "estadoCivilUsuario": "Soltero",
+    "cedulaUsuario": 7352189546,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Frye",
+    "apellidoUsuario": "Newman",
+    "direccionUsuario": "Lorem non cillum eu deserunt ut veniam aliquip nostrud nisi sit.",
+    "telefonoUsuario": "(918) 429-2409",
+    "estadoCivilUsuario": "Divorciado",
+    "cedulaUsuario": 6725287865,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Sofia",
+    "apellidoUsuario": "Ross",
+    "direccionUsuario": "Aute occaecat labore est voluptate.",
+    "telefonoUsuario": "(879) 574-3577",
+    "estadoCivilUsuario": "Viudo",
+    "cedulaUsuario": 4322602341,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Jeanine",
+    "apellidoUsuario": "Blanchard",
+    "direccionUsuario": "Fugiat fugiat duis enim mollit exercitation.",
+    "telefonoUsuario": "(870) 419-3797",
+    "estadoCivilUsuario": "Casado",
+    "cedulaUsuario": 6808332061,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Paige",
+    "apellidoUsuario": "Ferguson",
+    "direccionUsuario": "Dolore consectetur non ad pariatur adipisicing ullamco aute consectetur proident pariatur anim aliquip ad.",
+    "telefonoUsuario": "(895) 600-2700",
+    "estadoCivilUsuario": "Soltero",
+    "cedulaUsuario": 6299697106,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Terrie",
+    "apellidoUsuario": "Brown",
+    "direccionUsuario": "Nostrud proident cupidatat veniam aliqua.",
+    "telefonoUsuario": "(999) 416-2693",
+    "estadoCivilUsuario": "Divorciado",
+    "cedulaUsuario": 2726064834,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Morris",
+    "apellidoUsuario": "Crawford",
+    "direccionUsuario": "Non elit exercitation minim labore minim.",
+    "telefonoUsuario": "(807) 581-2177",
+    "estadoCivilUsuario": "Viudo",
+    "cedulaUsuario": 2634742395,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Fields",
+    "apellidoUsuario": "Riggs",
+    "direccionUsuario": "Nulla occaecat laborum non culpa minim est fugiat dolore incididunt esse esse minim culpa sunt.",
+    "telefonoUsuario": "(916) 554-2930",
+    "estadoCivilUsuario": "Divorciado",
+    "cedulaUsuario": 7126245897,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Murphy",
+    "apellidoUsuario": "Barron",
+    "direccionUsuario": "Exercitation amet cillum magna in voluptate.",
+    "telefonoUsuario": "(964) 481-2841",
+    "estadoCivilUsuario": "Casado",
+    "cedulaUsuario": 3362596093,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Darla",
+    "apellidoUsuario": "Bauer",
+    "direccionUsuario": "Eiusmod aute nulla sunt nisi cupidatat reprehenderit mollit cupidatat.",
+    "telefonoUsuario": "(948) 469-2083",
+    "estadoCivilUsuario": "Soltero",
+    "cedulaUsuario": 2678158001,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Mcconnell",
+    "apellidoUsuario": "Davenport",
+    "direccionUsuario": "Dolore cupidatat deserunt adipisicing officia est est amet proident ad velit culpa ea.",
+    "telefonoUsuario": "(802) 568-3158",
+    "estadoCivilUsuario": "Casado",
+    "cedulaUsuario": 2660887425,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Traci",
+    "apellidoUsuario": "Vincent",
+    "direccionUsuario": "Ad sunt laborum enim cupidatat et culpa voluptate cillum laboris commodo do amet culpa.",
+    "telefonoUsuario": "(992) 556-3536",
+    "estadoCivilUsuario": "Soltero",
+    "cedulaUsuario": 4711670957,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Roth",
+    "apellidoUsuario": "Cantrell",
+    "direccionUsuario": "Veniam laboris amet esse fugiat exercitation amet et elit cupidatat.",
+    "telefonoUsuario": "(814) 565-2413",
+    "estadoCivilUsuario": "Divorciado",
+    "cedulaUsuario": 5278398888,
+    "password": "A12345678a",
+    "estadoUsuario": false
+  },
+  {
+    "nombreUsuario": "Georgia",
+    "apellidoUsuario": "Miranda",
+    "direccionUsuario": "Lorem laborum labore occaecat ex ea aliqua eiusmod magna non.",
+    "telefonoUsuario": "(866) 557-2898",
+    "estadoCivilUsuario": "Soltero",
+    "cedulaUsuario": 3087583484,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Terrell",
+    "apellidoUsuario": "Burke",
+    "direccionUsuario": "Officia irure sint velit ut laborum.",
+    "telefonoUsuario": "(984) 533-2641",
+    "estadoCivilUsuario": "Divorciado",
+    "cedulaUsuario": 9011820432,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Dale",
+    "apellidoUsuario": "Pickett",
+    "direccionUsuario": "Culpa qui cillum do dolor aliqua ut aute cupidatat dolore.",
+    "telefonoUsuario": "(822) 536-2150",
+    "estadoCivilUsuario": "Viudo",
+    "cedulaUsuario": 8479559586,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  },
+  {
+    "nombreUsuario": "Brittany",
+    "apellidoUsuario": "Watts",
+    "direccionUsuario": "In et deserunt incididunt reprehenderit laboris occaecat anim dolor id magna tempor.",
+    "telefonoUsuario": "(871) 544-2312",
+    "estadoCivilUsuario": "Viudo",
+    "cedulaUsuario": 6957498409,
+    "password": "A12345678a",
+    "estadoUsuario": true
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "usuario": 5,
+    "rol": 1
+  },
+  {
+    "usuario": 8,
+    "rol": 2
+  },
+  {
+    "usuario": 13,
+    "rol": 3
+  },
+  {
+    "usuario": 2,
+    "rol": 4
+  },
+  {
+    "usuario": 10,
+    "rol": 1
+  },
+  {
+    "usuario": 5,
+    "rol": 2
+  },
+  {
+    "usuario": 8,
+    "rol": 3
+  },
+  {
+    "usuario": 9,
+    "rol": 4
+  },
+  {
+    "usuario": 11,
+    "rol": 1
+  },
+  {
+    "usuario": 19,
+    "rol": 2
+  },
+  {
+    "usuario": 4,
+    "rol": 3
+  },
+  {
+    "usuario": 13,
+    "rol": 4
+  },
+  {
+    "usuario": 11,
+    "rol": 1
+  },
+  {
+    "usuario": 3,
+    "rol": 2
+  },
+  {
+    "usuario": 17,
+    "rol": 3
+  },
+  {
+    "usuario": 12,
+    "rol": 4
+  },
+  {
+    "usuario": 8,
+    "rol": 1
+  },
+  {
+    "usuario": 4,
+    "rol": 2
+  },
+  {
+    "usuario": 12,
+    "rol": 3
+  },
+  {
+    "usuario": 19,
+    "rol": 4
+  },
+  {
+    "usuario": 8,
+    "rol": 1
+  },
+  {
+    "usuario": 13,
+    "rol": 2
+  },
+  {
+    "usuario": 4,
+    "rol": 3
+  },
+  {
+    "usuario": 3,
+    "rol": 4
+  },
+  {
+    "usuario": 2,
+    "rol": 1
+  },
+  {
+    "usuario": 8,
+    "rol": 2
+  },
+  {
+    "usuario": 16,
+    "rol": 3
+  },
+  {
+    "usuario": 5,
+    "rol": 4
+  },
+  {
+    "usuario": 2,
+    "rol": 1
+  },
+  {
+    "usuario": 18,
+    "rol": 2
+  },
+  {
+    "usuario": 9,
+    "rol": 3
+  },
+  {
+    "usuario": 11,
+    "rol": 4
+  },
+  {
+    "usuario": 9,
+    "rol": 1
+  },
+  {
+    "usuario": 8,
+    "rol": 2
+  },
+  {
+    "usuario": 17,
+    "rol": 3
+  }
+]

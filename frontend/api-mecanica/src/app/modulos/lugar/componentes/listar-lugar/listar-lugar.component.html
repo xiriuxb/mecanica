@@ -1,0 +1,70 @@
+<div class="container">
+  <div class="row justify-content-between">
+    <div class="col-sm-12 col-md-5">
+      <input type="text" class="form-control" placeholder="Buscar por nombre...."
+             name="filtrar-columna" [(ngModel)]="nombreABuscar">
+      <button class="btn btn-sm btn-outline-secondary btn-block boton-buscar" (click)="filtrarPorNombre()"><i
+        class="pi pi-search"></i> BUSCAR
+      </button>
+    </div>
+    <div class="col-sm-12 col-md-5">
+      <button class="btn btn-sm btn-outline-info btn-block boton-crear" (click)="abrirModalCrear()"><i
+        class="pi pi-user-plus"></i> CREAR
+      </button>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="container">
+  <p-table
+    [value]="lugares"
+    [paginator]="true"
+    [rows]="5"
+    [lazy]="true"
+    (onLazyLoad)="cargarMasDatos($event)"
+    [totalRecords]="registrosTotales"
+    [responsive]="true"
+  >
+    <ng-template pTemplate="header">
+      <tr>
+        <th *ngFor="let col of columnas" id="cabeceraTabla" [style.width]="col.width">
+          {{col.header}}
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-usuarioRow class="filaSeleccionada">
+      <tr class="filaSeleccionada">
+        <td *ngFor="let col of columnas" [style.width]="col.width">
+          <div *ngIf="col.field === 'nombre'"> {{usuarioRow[col.field] | uppercase}}</div>
+          <div *ngIf="col.field === 'mecanica'"> {{usuarioRow[col.field].length}}</div>
+          <div *ngIf="col.field === 'id'">
+            <div class="row">
+              <div class="col-md-10 col-sm-12 justify-content-end">
+                <button class="btn btn-sm btn-outline-info btn-block boton" (click)="abrirModalEditar(usuarioRow)"><i
+                  class="pi pi-pencil"></i> EDITAR
+                </button>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="emptymessage" let-columns>
+      <tr>
+        <td [attr.colspan]="columnas.length">
+          No hay registros
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 col-sm-12">
+      <button  [routerLink]="['/inicio']" class="btn btn-sm btn-outline-secondary btn btn-block"><i class="pi pi-angle-left"></i> VOLVER AL INICIO</button>
+    </div>
+  </div>
+</div>

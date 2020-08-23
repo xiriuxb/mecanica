@@ -1,0 +1,121 @@
+<div class="container">
+  <div class="row justify-content-md-center">
+    <h2>AGREGAR SERVICIO</h2>
+  </div>
+</div>
+<div class="container">
+  <div>
+    <form
+      [formGroup]="formularioServicio"
+      (ngSubmit)="enviarFormularioServicio()"
+      novalidate
+    >
+      <div class="form-group col-sm-12 col-md-6" [hidden]="verDetalle">
+        <mat-label>Mecanicas: *</mat-label>
+        <mat-select [formControlName]="'mecanica'"
+                    id="mecanica"
+                    placeholder="mecanica....">
+          <mat-option *ngFor="let mecanica of mecanicas" [value]="mecanica">
+            {{mecanica.nombreMecanica}}
+          </mat-option>
+        </mat-select>
+        <small id="mecanicaHelp" class="form-text text-musted">Seleccione su mecanica.</small>
+        <div *ngIf="arregloMensajesDeErrorMecanica.length>0 && arregloMensajesDeErrorMecanica[0] "
+             class="alert alert-danger" role="alert">
+          <div *ngFor="let mensajeError of arregloMensajesDeErrorMecanica">
+            <div>{{mensajeError}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-12">
+          <label for="detalle">Detalle: *</label>
+          <input
+            [formControlName]="'detalle'"
+            type="text"
+            class="form-control"
+            id="detalle"
+            aria-describedby="detalleHelp"
+            placeholder="Ingrese el Detalle">
+          <small id="detalleHelp" class="form-text text-musted">Ingrese nuevo Detalle.</small>
+          <div *ngIf="arregloMensajesDeErrorDetalle.length>0 && arregloMensajesDeErrorDetalle[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorDetalle">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6" [hidden]="!verDetalle">
+          <label for="placa">Placa: </label>
+          <input
+            [formControlName]="'placa'"
+            [attr.disabled]="true"
+            type="text"
+            class="form-control"
+            id="placa"
+            aria-describedby="placaHelp">
+          <small id="placaHelp" class="form-text text-musted">Placa de auto.</small>
+        </div>
+        <div class="form-group col-sm-12 col-md-6" [hidden]="!verDetalle">
+          <label for="anio">Anio: </label>
+          <input
+            [formControlName]="'anio'"
+            [attr.disabled]="true"
+            type="text"
+            class="form-control"
+            id="anio"
+            aria-describedby="anioHelp">
+          <small id="anioHelp" class="form-text text-musted">Anio de auto.</small>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6" [hidden]="!verDetalle">
+          <label for="descripcion">Descripcion: </label>
+          <textarea
+            [formControlName]="'descripcion'"
+            [attr.disabled]="true"
+            type="text"
+            class="form-control"
+            id="descripcion"
+            aria-describedby="descripcionHelp">
+          </textarea>
+          <small id="descripcionHelp" class="form-text text-musted">Descripcion de auto.</small>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-12" [hidden]="!verDetalle">
+          <label for="estado">Estado: *</label>
+          <input
+            [formControlName]="'estado'"
+            [attr.disabled]="true"
+            type="text"
+            class="form-control"
+            id="estado"
+            aria-describedby="estadoHelp">
+          <small id="estadoHelp" class="form-text text-musted">Estado de su servicio.</small>
+        </div>
+      </div>
+      <div class="row" [hidden]="verDetalle" >
+        <div class="form-group col-sm-12 col-md-6">
+          <mat-label>Vehiculos: *</mat-label>
+          <mat-select [formControlName]="'vehiculo'"
+                      id="vehiculo"
+                      placeholder="vehiculo....">
+            <mat-option *ngFor="let vehiculo of vehiculos" [value]="vehiculo">
+              {{vehiculo.placa}}
+            </mat-option>
+          </mat-select>
+          <small id="vehiculoHelp" class="form-text text-musted">Seleccione su vehiculo.</small>
+          <div *ngIf="arregloMensajesDeErrorVehiculo.length>0 && arregloMensajesDeErrorVehiculo[0] "
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorVehiculo">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+[
+  {
+    "detalle": "Id tempor consectetur adipisicing ipsum ullamco et tempor magna laboris Lorem laboris.",
+    "estado": "Finalizado",
+    "mecanica": 36,
+    "costo": 10.00,
+    "vehiculo": 1,
+    "usuario": 35
+  },
+  {
+    "detalle": "Consectetur officia cillum elit incididunt et eiusmod cillum ex.",
+    "estado": "En trabajo",
+    "mecanica": 35,
+    "costo": 15.00,
+    "vehiculo": 1,
+    "usuario": 35
+  },
+  {
+    "detalle": "Ad minim adipisicing et proident.",
+    "estado": "En trabajo",
+    "mecanica": 36,
+    "costo": 14.50,
+    "vehiculo": 1,
+    "usuario": 34
+  },
+  {
+    "detalle": "Ullamco do deserunt cillum minim et mollit adipisicing cupidatat amet commodo amet culpa culpa pariatur.",
+    "estado": "Finalizado",
+    "mecanica": 35,
+    "costo": 9.25,
+    "vehiculo": 1,
+    "usuario": 34
+  },
+  {
+    "detalle": "Incididunt laborum ad nostrud qui commodo ut ea sit incididunt.",
+    "estado": "Finalizado",
+    "mecanica": 34,
+    "costo": 5.33,
+    "vehiculo": 1,
+    "usuario": 34
+  },
+  {
+    "detalle": "Anim excepteur cillum reprehenderit laborum ex laborum mollit.",
+    "estado": "Por asingar mecanico",
+    "mecanica": 33,
+    "costo": 4.22,
+    "vehiculo": 1,
+    "usuario": 33
+  },
+  {
+    "detalle": "Ut nostrud et tempor nostrud pariatur laborum elit ipsum ea commodo anim laboris ullamco.",
+    "estado": "Por asingar mecanico",
+    "mecanica": 32,
+    "costo": 1.50,
+    "vehiculo": 1,
+    "usuario": 33
+  },
+  {
+    "detalle": "Mollit anim duis voluptate qui aliquip ullamco consectetur ut ut proident esse dolor nostrud.",
+    "estado": "En trabajo",
+    "mecanica": 31,
+    "costo": 10.00,
+    "vehiculo": 1,
+    "usuario": 33
+  }
+]

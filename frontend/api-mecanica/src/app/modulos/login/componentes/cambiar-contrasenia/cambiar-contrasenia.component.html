@@ -1,0 +1,51 @@
+<div class="container">
+  <div class="row justify-content-md-center">
+    <h2>CAMBIE SU CONTRASENIA</h2>
+  </div>
+</div>
+<div class="container-fluid">
+  <div>
+    <form
+      [formGroup]="formularioCambiarContrasenia"
+      (ngSubmit)="enviarFormularioCambiarContrasenia()"
+      novalidate
+    >
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-12">
+          <label for="contrasenia">Contasenia: *</label>
+          <input
+            [formControlName]="'contrasenia'"
+            type="password"
+            class="form-control"
+            id="contrasenia"
+            aria-describedby="contraseniaHelp"
+            placeholder="Nueva contrasenia ">
+          <small id="contraseniaHelp" class="form-text text-musted">Ingrese una nueva contrasenia.</small>
+          <div *ngIf="bandera"
+               class="alert alert-danger" role="alert">
+            <div>{{mensajeContraseniaNoCoincide}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-12">
+          <label for="confirmar">Confirmar contrasenia: *</label>
+          <input
+            [formControlName]="'confirmar'"
+            type="password"
+            class="form-control"
+            id="confirmar"
+            aria-describedby="confirmarHelp"
+            placeholder="Confirmar contrasenia">
+          <small id="confirmarHelp" class="form-text text-musted">Confirmse su contrasenia.</small>
+          <div *ngIf="arregloMensajesDeErrorConfirmar.length>0 && arregloMensajesDeErrorConfirmar[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorConfirmar">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

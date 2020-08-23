@@ -1,0 +1,9 @@
+<div mat-dialog-content>
+  <app-cambiar-contrasenia [contrasenia]="contrasenia" (nuevaContrasenia)="crearNuevaContrasenia($event)"></app-cambiar-contrasenia>
+</div>
+
+<div class="row justify-content-lg-end" mat-dialog-actions>
+  <div>
+    <button class="btn btn-success" [disabled]="!contrasenia" (click)="enviarDatosFormulario()"><i class="pi pi-save"></i> ACEPTAR</button>
+  </div>
+</div>

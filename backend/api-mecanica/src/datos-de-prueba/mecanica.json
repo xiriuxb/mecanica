@@ -1,0 +1,290 @@
+[
+  {
+    "nombreMecanica": "Owens",
+    "descripcionMecanica": "Adipisicing amet cupidatat magna enim officia et consequat.",
+    "telefonoMecanica": 8594253416,
+    "direccionMecanica": "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 1
+  },
+  {
+    "nombreMecanica": "Deleon",
+    "descripcionMecanica": "Eiusmod deserunt ullamco aute enim esse dolor anim eiusmod aliquip labore amet nisi aliqua enim.",
+    "telefonoMecanica": 9195982855,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 2
+  },
+  {
+    "nombreMecanica": "Weber",
+    "descripcionMecanica": "Officia commodo et ea velit enim.",
+    "telefonoMecanica": 8195462707,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 2
+  },
+  {
+    "nombreMecanica": "Rojas",
+    "descripcionMecanica": "Adipisicing Lorem ipsum esse ut laboris anim dolore magna qui aliqua proident aliqua.",
+    "telefonoMecanica": 9065503727,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 4
+  },
+  {
+    "nombreMecanica": "Griffin",
+    "descripcionMecanica": "Occaecat aliquip consectetur minim do laborum est dolore eiusmod.",
+    "telefonoMecanica": 9724963544,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 4
+  },
+  {
+    "nombreMecanica": "Hernandez",
+    "descripcionMecanica": "Duis et id enim mollit sunt.",
+    "telefonoMecanica": 9414643180,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 5
+  },
+  {
+    "nombreMecanica": "Dickerson",
+    "descripcionMecanica": "Cupidatat velit consectetur eiusmod laborum eu cupidatat ullamco qui veniam magna commodo qui pariatur aliquip.",
+    "telefonoMecanica": 8475532539,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 3
+  },
+  {
+    "nombreMecanica": "Weiss",
+    "descripcionMecanica": "Adipisicing quis aliqua ipsum magna laboris.",
+    "telefonoMecanica": 8164802370,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 2
+  },
+  {
+    "nombreMecanica": "Rosa",
+    "descripcionMecanica": "Voluptate aute ea elit magna aute pariatur.",
+    "telefonoMecanica": 8554842890,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 3
+  },
+  {
+    "nombreMecanica": "Dyer",
+    "descripcionMecanica": "Sunt dolore ipsum culpa non excepteur velit sint laborum nostrud aliqua elit voluptate Lorem cupidatat.",
+    "telefonoMecanica": 8785312434,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 1
+  },
+  {
+    "nombreMecanica": "Lyons",
+    "descripcionMecanica": "Qui id officia commodo ullamco.",
+    "telefonoMecanica": 8185503562,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 5
+  },
+  {
+    "nombreMecanica": "Estes",
+    "descripcionMecanica": "Occaecat Lorem esse esse duis velit nostrud aute sit.",
+    "telefonoMecanica": 9875222532,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 2
+  },
+  {
+    "nombreMecanica": "Blevins",
+    "descripcionMecanica": "Duis ullamco irure enim magna culpa adipisicing aute proident ad.",
+    "telefonoMecanica": 9505542202,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 4
+  },
+  {
+    "nombreMecanica": "Clemons",
+    "descripcionMecanica": "Quis velit aliqua ad non aliqua.",
+    "telefonoMecanica": 8595343831,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 1
+  },
+  {
+    "nombreMecanica": "Powell",
+    "descripcionMecanica": "Eiusmod dolore culpa aute commodo consectetur irure cupidatat ea et sint pariatur magna non laboris.",
+    "telefonoMecanica": 9264333246,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 1
+  },
+  {
+    "nombreMecanica": "Durham",
+    "descripcionMecanica": "Officia est dolor eiusmod non eiusmod cillum officia anim nostrud reprehenderit Lorem eu.",
+    "telefonoMecanica": 9664293633,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 4
+  },
+  {
+    "nombreMecanica": "Le",
+    "descripcionMecanica": "Tempor esse aliquip enim aliquip non esse aliquip laboris proident dolore ipsum sit commodo nisi.",
+    "telefonoMecanica": 8525453661,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 2
+  },
+  {
+    "nombreMecanica": "Hudson",
+    "descripcionMecanica": "Mollit non in voluptate elit est enim quis duis sit nostrud id ad dolore id.",
+    "telefonoMecanica": 8374983494,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 3
+  },
+  {
+    "nombreMecanica": "Fuentes",
+    "descripcionMecanica": "Elit irure et aliqua commodo elit amet ullamco pariatur cupidatat.",
+    "telefonoMecanica": 8445213091,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 5
+  },
+  {
+    "nombreMecanica": "Martinez",
+    "descripcionMecanica": "Laborum proident amet quis irure est enim ea magna.",
+    "telefonoMecanica": 8175943540,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 2
+  },
+  {
+    "nombreMecanica": "Jordan",
+    "descripcionMecanica": "In minim nostrud amet incididunt excepteur ea aliqua id adipisicing sit.",
+    "telefonoMecanica": 9615243129,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 3
+  },
+  {
+    "nombreMecanica": "Roy",
+    "descripcionMecanica": "Irure amet qui fugiat ullamco minim ullamco ad labore anim ea pariatur exercitation labore sunt.",
+    "telefonoMecanica": 9165903533,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 5
+  },
+  {
+    "nombreMecanica": "Bennett",
+    "descripcionMecanica": "Cupidatat ipsum ut velit reprehenderit.",
+    "telefonoMecanica": 9805453207,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 2
+  },
+  {
+    "nombreMecanica": "Osborne",
+    "descripcionMecanica": "Quis non sint nostrud excepteur elit commodo sit.",
+    "telefonoMecanica": 9804752391,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 5
+  },
+  {
+    "nombreMecanica": "Shaw",
+    "descripcionMecanica": "Velit nostrud minim sit exercitation exercitation.",
+    "telefonoMecanica": 9514173815,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 5
+  },
+  {
+    "nombreMecanica": "Vaughn",
+    "descripcionMecanica": "Sunt aliquip cillum ex ea tempor amet laboris velit.",
+    "telefonoMecanica": 8985602667,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 5
+  },
+  {
+    "nombreMecanica": "Webb",
+    "descripcionMecanica": "Consequat laboris aliquip enim consequat labore nulla adipisicing officia esse ullamco et dolore sit labore.",
+    "telefonoMecanica": 8855362607,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 3
+  },
+  {
+    "nombreMecanica": "Yang",
+    "descripcionMecanica": "Nostrud exercitation adipisicing do laborum consectetur elit culpa.",
+    "telefonoMecanica": 9205063108,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 5
+  },
+  {
+    "nombreMecanica": "Riddle",
+    "descripcionMecanica": "In consectetur ut laborum dolor id sit qui do duis est deserunt officia.",
+    "telefonoMecanica": 8154933696,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 2
+  },
+  {
+    "nombreMecanica": "Avila",
+    "descripcionMecanica": "Commodo minim velit ut proident ut amet ut aliquip.",
+    "telefonoMecanica": 9494033008,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 5
+  },
+  {
+    "nombreMecanica": "Norton",
+    "descripcionMecanica": "Mollit mollit incididunt reprehenderit aute laboris ea laborum esse excepteur in.",
+    "telefonoMecanica": 8034583306,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 2
+  },
+  {
+    "nombreMecanica": "Woodard",
+    "descripcionMecanica": "Officia ut esse ipsum commodo officia nisi.",
+    "telefonoMecanica": 9395892775,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 4
+  },
+  {
+    "nombreMecanica": "Bass",
+    "descripcionMecanica": "Exercitation proident nostrud eiusmod ex nisi in occaecat ullamco incididunt nostrud ullamco sint aliquip.",
+    "telefonoMecanica": 9595923740,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 5
+  },
+  {
+    "nombreMecanica": "Suarez",
+    "descripcionMecanica": "Nulla exercitation exercitation ipsum in tempor.",
+    "telefonoMecanica": 8444983883,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 5
+  },
+  {
+    "nombreMecanica": "Luna",
+    "descripcionMecanica": "Tempor id elit est nisi Lorem nulla ullamco sunt sint.",
+    "telefonoMecanica": 9124722024,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": true,
+    "lugar": 4
+  },
+  {
+    "nombreMecanica": "Simpson",
+    "descripcionMecanica": "Officia anim voluptate fugiat deserunt aliqua cupidatat exercitation proident cupidatat qui velit excepteur culpa laboris.",
+    "telefonoMecanica": 8355393720,
+    "direccionMecanica":  "Av. la prensa",
+    "estadoMecanica": false,
+    "lugar": 3
+  }
+]

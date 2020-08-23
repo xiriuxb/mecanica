@@ -1,0 +1,37 @@
+[
+  {
+    "turnoPorUsuario": 23,
+    "servicio": 1,
+    "usuario": 27
+  },
+  {
+    "turnoPorUsuario": 16,
+    "servicio": 2,
+    "usuario": 25
+  },
+  {
+    "turnoPorUsuario": 1,
+    "servicio": 3,
+    "usuario": 19
+  },
+  {
+    "turnoPorUsuario": 29,
+    "servicio": 8,
+    "usuario": 11
+  },
+  {
+    "turnoPorUsuario": 27,
+    "servicio": 8,
+    "usuario": 15
+  },
+  {
+    "turnoPorUsuario": 28,
+    "servicio": 7,
+    "usuario": 2
+  },
+  {
+    "turnoPorUsuario": 18,
+    "servicio": 6,
+    "usuario": 6
+  }
+]

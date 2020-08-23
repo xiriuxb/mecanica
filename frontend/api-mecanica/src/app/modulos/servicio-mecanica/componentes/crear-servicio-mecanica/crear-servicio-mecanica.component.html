@@ -1,0 +1,116 @@
+<div class="container">
+  <div class="row justify-content-md-center">
+    <h2>DETALLES SERVICIO</h2>
+  </div>
+</div>
+<div class="container">
+  <div>
+    <form
+      [formGroup]="formularioServicio"
+      (ngSubmit)="enviarFormularioServicio()"
+      novalidate
+    >
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-12">
+          <label for="detalle">Detalle: *</label>
+          <input
+            [formControlName]="'detalle'"
+            type="text"
+            class="form-control"
+            id="detalle"
+            aria-describedby="detalleHelp"
+            placeholder="Ingrese el Detalle">
+          <small id="detalleHelp" class="form-text text-musted">Ingrese nuevo Detalle.</small>
+          <div *ngIf="arregloMensajesDeErrorDetalle.length>0 && arregloMensajesDeErrorDetalle[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorDetalle">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6" [hidden]="!servicio && !verDetalle">
+          <label for="placa">Placa: </label>
+          <input
+            [formControlName]="'placa'"
+            [attr.disabled]="true"
+            type="text"
+            class="form-control"
+            id="placa"
+            aria-describedby="placaHelp">
+          <small id="placaHelp" class="form-text text-musted">Placa de auto.</small>
+        </div>
+        <div class="form-group col-sm-12 col-md-6" [hidden]="!servicio && !verDetalle">
+          <label for="anio">Anio: </label>
+          <input
+            [formControlName]="'anio'"
+            [attr.disabled]="true"
+            type="text"
+            class="form-control"
+            id="anio"
+            aria-describedby="anioHelp">
+          <small id="anioHelp" class="form-text text-musted">Anio de auto.</small>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-6" [hidden]="!servicio && !verDetalle">
+          <label for="descripcion">Descripcion vehiculo: </label>
+          <textarea
+            [formControlName]="'descripcion'"
+            [attr.disabled]="true"
+            type="text"
+            class="form-control"
+            id="descripcion"
+            aria-describedby="descripcionHelp">
+          </textarea>
+          <small id="descripcionHelp" class="form-text text-musted">Descripcion de auto.</small>
+        </div>
+        <div class="form-group col-sm-12 col-md-6" [hidden]="!servicio && !verDetalle">
+          <label for="costo">Costo: </label>
+          <input
+            [formControlName]="'costo'"
+            currencyMask
+            [options]="mascaraDineroCosto"
+            type="text"
+            class="form-control"
+            id="costo"
+            aria-describedby="costoHelp">
+          <small id="costoHelp" class="form-text text-musted">Costo del servicio.</small>
+          <div *ngIf="arregloMensajesDeErrorCredito.length>0 && arregloMensajesDeErrorCredito[0]"
+               class="alert alert-danger" role="alert">
+            <div *ngFor="let mensajeError of arregloMensajesDeErrorCredito">
+              <div>{{mensajeError}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-8">
+          <mat-label>Asignar mecanico: *</mat-label>
+          <mat-select [formControlName]="'mecanico'"
+                      id="mecanico"
+                      placeholder="mecanico....">
+            <mat-option *ngFor="let mecanico of mecanicos" [value]="mecanico">
+              {{mecanico.mecanico.apellidoMecanico + ' ' +mecanico.mecanico.nombreMecanico}}
+            </mat-option>
+          </mat-select>
+          <small id="mecanicoHelp" class="form-text text-musted">Seleccione un mecanico responsable.</small>
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-sm-12 col-md-8">
+          <mat-label>Estado de trabajo:</mat-label>
+          <mat-select [formControlName]="'estado'"
+                      id="estado"
+                      placeholder="estado....">
+            <mat-option *ngFor="let estado of estados" [value]="estado">
+              {{estado}}
+            </mat-option>
+          </mat-select>
+          <small id="estadoHelp" class="form-text text-musted">Seleccione su estado.</small>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
